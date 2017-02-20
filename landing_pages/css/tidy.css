@@ -116,16 +116,16 @@ a:active
 	width: 60%; 
 	background-color: transparent; 
 	margin: auto;
-	overflow: auto;
+	overflow: scroll;
 	position: relative;
-    padding: 10px 0 10px 0;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
+	padding: 10px 0 10px 0;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 }
 
 .screenshot-item
