@@ -273,6 +273,7 @@ header.smaller h1#logo {
 }
 header.smaller nav a {
     line-height: 75px;
+    font-size: 14px;
 }
 .footer_text {
     padding: 10px;
