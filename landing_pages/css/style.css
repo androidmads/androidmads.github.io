@@ -255,11 +255,12 @@ header nav a {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    padding: 10px;
 }
 header nav a:hover {
     color: #009688;
     background-color: white;
-    padding: 10px
+    padding: 10px;
 }
 header.smaller {
     height: 75px;
