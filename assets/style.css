@@ -11,8 +11,7 @@ body {
 
 h1 {
   font-weight: bold;
-  font-size: 20px;
-  color: #333;
+  font-size: 40px;
 }
 
 h2 {
@@ -33,17 +32,18 @@ a:hover {
 #wrapper {
   position: relative;
   width: 960px;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 20px 0;
 }
 
 #main {
-  height: 400px;
+  /* height: 250px; */
   text-align: center;
+  padding-bottom: 0px;
+  background:white;
 }
 
 #main, div.header, li.repo {
-  background: white;
   background: rgba(255, 255, 255, 0.7);
   -moz-box-shadow:    0 0 5px 1px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
@@ -261,7 +261,7 @@ li.repo h3 {
   }
   
   #wrapper {
-    width: 95%;
+    width: 96%;
   }
   
   #main {
@@ -269,8 +269,9 @@ li.repo h3 {
     display: inline-block;
     float: none;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin: 0 auto 20px;
+	background:white;
   }
   
   .grid .grid-2 {
@@ -297,12 +298,14 @@ li.repo h3 {
     margin-right: 0;
     display: inline-block;
     margin-left: 0;
+	background:white;
   }
 }
 
 @media screen and (max-width: 730px) {
   li.repo {
     min-width: 49%;
+	background:white;
   }
 }
 
