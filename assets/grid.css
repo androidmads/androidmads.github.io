@@ -1,4 +1,4 @@
-.grid-1, .grid-2, .grid-3, .grid-4 {
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-41 {
   display:inline;
   float: left;
   position: relative;
@@ -32,6 +32,10 @@
 
 .grid .grid-4 {
   width: 940px;
+}
+
+.grid .grid-41 {
+  width: 920px;
 }
 
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
