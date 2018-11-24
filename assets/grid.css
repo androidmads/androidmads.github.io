@@ -1,4 +1,4 @@
-.grid-1, .grid-2, .grid-3, .grid-4, .grid-41 {
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5 {
   display:inline;
   float: left;
   position: relative;
@@ -34,7 +34,7 @@
   width: 940px;
 }
 
-.grid .grid-41 {
+.grid .grid-5 {
   width: 920px;
 }
 
